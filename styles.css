@@ -28,6 +28,7 @@ body {
   font-family: sans-serif;
   text-align: center;
   font-size: 4em;
+  position: relative;
 }
 
 [class^="container__el"] { padding: 1rem; }
@@ -53,6 +54,45 @@ body {
 .container__el10 { background-color: #1E1E20; }
 
 .container {
-  height: 100vh;
+  min-height: 100vh; /* viewport height*/
   /* We will start writing Flexbox in here */
+}
+
+.axis {
+  background-color: goldenrod;
+  position: absolute;
+  z-index: 10;
+  color: goldenrod;
+}
+
+.axis--horizontal {
+  min-width: 100vw;
+  width: 100%;
+  height: 4px;
+  top: calc(50% - 4px);
+}
+
+.axis--horizontal::before {
+  content: 'MAIN AXIS';
+  left: 2rem;
+  position: absolute;
+  top: calc(50% + 2rem);
+}
+
+.axis--vertical {
+  min-height: 100vh;
+  height: 100%;
+  width: 4px;
+  left: calc(50% - 4px);
+  top: 0;
+}
+
+.axis--vertical::before {
+  content: 'CROSS AXIS';
+  left: calc(50% + -8rem);
+  position: absolute;
+  text-align: left;
+  top: 12rem;
+  transform: rotate(90deg);
+  width: 410px;
 }
