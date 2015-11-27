@@ -31,34 +31,39 @@ body {
   position: relative;
 }
 
-[class^="container__el"] { padding: 1rem; }
-
-.container__el01 { background-color: #DC3522; }
-
-.container__el02 { background-color: #D9CB9E; }
-
-.container__el03 { background-color: #374140; }
-
-.container__el04 { background-color: #2A2C2B; }
-
-.container__el05 { background-color: #1E1E20; }
-
-.container__el06 { background-color: #DC3522; }
-
-.container__el07 { background-color: #D9CB9E; }
-
-.container__el08 { background-color: #374140; }
-
-.container__el09 { background-color: #2A2C2B; }
-
-.container__el10 { background-color: #1E1E20; }
-
-.container {
-  min-height: 100vh; /* viewport height*/
-  /* We will start writing Flexbox in here */
+[class^="flex-item"] {
+  padding: 1rem;
+  width: 300px;
 }
 
-.axis {
+.flex-item01 { background-color: #DC3522; }
+
+.flex-item02 { background-color: #D9CB9E; }
+
+.flex-item03 { background-color: #374140; }
+
+.flex-item04 { background-color: #2A2C2B; }
+
+.flex-item05 { background-color: #1E1E20; }
+
+.flex-item06 { background-color: #DC3522; }
+
+.flex-item07 { background-color: #D9CB9E; }
+
+.flex-item08 { background-color: #374140; }
+
+.flex-item09 { background-color: #2A2C2B; }
+
+.flex-item10 { background-color: #1E1E20; }
+
+.flex-container {
+  min-height: 100vh; /* viewport height*/
+  /* We will start writing Flexbox in here */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*.axis {
   background-color: goldenrod;
   position: absolute;
   z-index: 10;
@@ -96,3 +101,4 @@ body {
   transform: rotate(90deg);
   width: 410px;
 }
+*/
