@@ -16,6 +16,12 @@
   * [initial]()
   * [unset]()
 * [align-items]()
+  * [flex-start]()
+  * [flex-end]()
+  * [center]()
+  * [baseline]()
+  * [stretch]()
+  * [inherit]()
 
 ## justify-content
 ### flex-start
