@@ -57,6 +57,6 @@ All flex items are aligned such that their baselines align. The item with the la
 Flex items are stretched such as the cross-size of the item's margin box is the same as the line while respecting width and height constraints.
 
 ## Global values both justify-content & align-items
-align-items: inherit;
-align-items: initial;
-align-items: unset;
+* align-items: inherit;
+* align-items: initial;
+* align-items: unset;
