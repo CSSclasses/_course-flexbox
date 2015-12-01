@@ -41,7 +41,6 @@ Flex items are evenly distributed along the line. The spacing is done such as th
 Flex items are evenly distributed so that the space between two adjacent items is the same. The empty space before the first and after the last items equals half of the space between two adjacent items.
 
 ## align-items
-
 ### flex-start
 The cross-start margin edge of the flex item is flushed with the cross-start edge of the line.
 
@@ -49,11 +48,13 @@ The cross-start margin edge of the flex item is flushed with the cross-start edg
 The cross-end margin edge of the flex item is flushed with the cross-end edge of the line.
 
 ### center
+The flex item's margin box is centered within the line on the cross-axis. If the cross-size of the item is larger than the flex container, it will overflow equally in both directions.
 
 ### baseline
+All flex items are aligned such that their baselines align. The item with the largest distance between its cross-start margin edge and its baseline is flushed with the cross-start edge of the line.
 
 ### stretch
-
+Flex items are stretched such as the cross-size of the item's margin box is the same as the line while respecting width and height constraints.
 
 ## Global values both justify-content & align-items
 align-items: inherit;
