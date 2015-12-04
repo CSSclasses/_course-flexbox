@@ -40,3 +40,9 @@ Flex items are evenly distributed along the line. The spacing is done such as th
 Flex items are evenly distributed so that the space between two adjacent items is the same. The empty space before the first and after the last items equals half of the space between two adjacent items.
 
 ## align-items
+### flex-start
+### flex-end
+### center
+### baseline
+### stretch
+### inherit
