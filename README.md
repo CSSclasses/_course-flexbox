@@ -23,6 +23,7 @@
   * [stretch]()
   * [inherit]()
 
+
 ## justify-content
 ### flex-start
 The flex items are packed starting from the main-start. Margins of the first flex item is flushed with the main-start edge of the line and each following flex item is flushed with the preceding.
@@ -41,8 +42,22 @@ Flex items are evenly distributed so that the space between two adjacent items i
 
 ## align-items
 ### flex-start
+The cross-start margin edge of the flex item is flushed with the cross-start edge of the line.
+
 ### flex-end
+The cross-end margin edge of the flex item is flushed with the cross-end edge of the line.
+
 ### center
+The flex item's margin box is centered within the line on the cross-axis. If the cross-size of the item is larger than the flex container, it will overflow equally in both directions.
+
 ### baseline
+All flex items are aligned such that their baselines align. The item with the largest distance between its cross-start margin edge and its baseline is flushed with the cross-start edge of the line.
+
 ### stretch
-### inherit
+Flex items are stretched such as the cross-size of the item's margin box is the same as the line while respecting width and height constraints.
+
+## Global values both justify-content & align-items
+* align-items: inherit;
+* align-items: initial;
+* align-items: unset;
+
