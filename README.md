@@ -63,3 +63,5 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 
 * http://flexboxfroggy.com
 * [What the Flexbox!?](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
+* [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
+* [Flexbugs](https://github.com/philipwalton/flexbugs)
