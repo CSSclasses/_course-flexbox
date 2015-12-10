@@ -1,5 +1,7 @@
 # Flexbox Course
 
+Explanation Flex container and flex children, main-axis & cross-axis.
+
 * [Introduction]()
 * [display: flex]()
 * [flex-direction]()
@@ -72,3 +74,4 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 * [MDN – Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 * [Learn Layout - Flexbox](http://learnlayout.com/flexbox.html)
 * [Can I Use](http://caniuse.com/#feat=flexbox)
+* [Smashing Magazin article – Flexbox](http://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)
