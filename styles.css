@@ -28,13 +28,9 @@ body {
   font-family: sans-serif;
   text-align: center;
   font-size: 4em;
-  position: relative;
 }
 
-[class^="flex-item"] {
-  padding: 1rem;
-  width: 300px;
-}
+[class^="flex-item"] { padding: 1rem; }
 
 .flex-item01 { background-color: #DC3522; }
 
@@ -60,6 +56,4 @@ body {
   height: 100vh;
   /* We will start writing Flexbox in here */
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
