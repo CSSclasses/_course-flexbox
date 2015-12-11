@@ -2,14 +2,14 @@
 
 Explanation Flex container and flex children, main-axis & cross-axis.
 
-* [Introduction]()
-* [display: flex]()
+* Introduction
+* display: flex
 * [flex-direction]()
   * [row]()
   * [column]()
 * [order]()
 * [justify-content](#justify-content)
-  * [flex-start]()
+  * [flex-start](#flex-start)
   * [flex-end]()
   * [center]()
   * [space-between]()
@@ -24,7 +24,6 @@ Explanation Flex container and flex children, main-axis & cross-axis.
   * [baseline]()
   * [stretch]()
   * [inherit]()
-
 
 ## justify-content
 ### flex-start
