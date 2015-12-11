@@ -3,27 +3,54 @@
 Explanation Flex container and flex children, main-axis & cross-axis.
 
 * Introduction
-* display: flex
+* [display: flex](#display--flex)
 * [flex-direction]()
   * [row]()
   * [column]()
 * [order]()
 * [justify-content](#justify-content)
   * [flex-start](#flex-start)
-  * [flex-end]()
-  * [center]()
-  * [space-between]()
-  * [space-around]()
-  * [inherit]()
-  * [initial]()
-  * [unset]()
-* [align-items]()
-  * [flex-start]()
-  * [flex-end]()
-  * [center]()
-  * [baseline]()
-  * [stretch]()
-  * [inherit]()
+  * [flex-end](#flex-end)
+  * [center](#center)
+  * [space-between](#space-between)
+  * [space-around](#pace-around)
+* [align-items](#align-items)
+  * [flex-start](#flex-start-1)
+  * [flex-end](#flex-end-1)
+  * [center](#center-1)
+  * [baseline](#baseline)
+  * [stretch](#strecht)
+
+## display – Flex
+`display: flex;` defines a flex container. This enables a flex context for all its direct children (`.flex-container > .flex-child`).
+```
+.flex-container {
+  display: flex; /* inline-flex */
+}
+```
+
+## flex-direction
+The flex-direction CSS property specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+```
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+```
+
+### flex-direction: row
+#### row
+The flex container's main-axis is defined to be the same as the text direction. The main-start and main-end points are the same as the content direction.
+
+#### row-reverse
+Behaves the same as row but the main-start and main-end points are permuted.
+
+### flex-direction: column
+#### column
+The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode.
+
+#### column-reverse
+Behaves the same as column but the main-start and main-end are permuted.
 
 ## justify-content
 ### flex-start
@@ -61,7 +88,6 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 * align-items: inherit;
 * align-items: initial;
 * align-items: unset;
-
 
 ## Resources
 * [http://flexboxfroggy.com](http://flexboxfroggy.com)
