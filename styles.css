@@ -30,7 +30,13 @@ body {
   font-size: 4em;
 }
 
-[class^="flex-item"] { padding: 1rem; }
+[class^="flex-item"] {
+  padding: 2rem;
+  width: 20%;
+  overflow: hidden;
+  display: flex;
+  /*justfiy-content: center;*/
+}
 
 .flex-item01 { background-color: #DC3522; }
 
@@ -56,4 +62,6 @@ body {
   height: 100vh;
   /* We will start writing Flexbox in here */
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
