@@ -23,9 +23,9 @@ Explanation Flex container and flex children, main-axis & cross-axis.
 
 ## Walkthrough
 
-1. Read https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
-
-2. Try to solve all levels in http://flexboxfroggy.com
+1. Read [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+2. Try to solve all levels in [Flexbox Froggy](http://flexboxfroggy.com)
+3. If you get stuck try Chris Coiyer's [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## display – Flex
 `display: flex;` defines a flex container. This enables a flex context for all its direct children (`.flex-container > .flex-child`).
@@ -97,7 +97,7 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 
 ## Resources
 * [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
-* [http://flexboxfroggy.com](http://flexboxfroggy.com)
+* [Flexbox Froggy](http://flexboxfroggy.com)
 * [What the Flexbox!?](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
 * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 * [Flexbugs](https://github.com/philipwalton/flexbugs)
