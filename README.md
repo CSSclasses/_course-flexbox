@@ -2,7 +2,7 @@
 
 Explanation Flex container and flex children, main-axis & cross-axis.
 
-* Introduction
+* Introduction (by your coach)
 * [display: flex](#display--flex)
 * [flex-direction]()
   * [row]()
@@ -20,6 +20,12 @@ Explanation Flex container and flex children, main-axis & cross-axis.
   * [center](#center-1)
   * [baseline](#baseline)
   * [stretch](#strecht)
+
+## Walkthrough
+
+1. Read https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+
+2. Try to solve all levels in http://flexboxfroggy.com
 
 ## display – Flex
 `display: flex;` defines a flex container. This enables a flex context for all its direct children (`.flex-container > .flex-child`).
