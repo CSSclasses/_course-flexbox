@@ -1,6 +1,6 @@
 # Flexbox Course
 
-* [Introduction]()
+* [Introduction]() /* links follows soon(ish) */
 * [display: flex]()
 * [flex-direction]()
   * [row]()
