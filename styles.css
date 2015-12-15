@@ -60,6 +60,4 @@ body {
   height: 100vh;
   /* We will start writing Flexbox in here */
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
