@@ -28,12 +28,14 @@ body {
   font-family: sans-serif;
   text-align: center;
   font-size: 4em;
-  position: relative;
 }
 
 [class^="flex-item"] {
-  padding: 1rem;
-  width: 300px;
+  padding: 2rem;
+  width: 20%;
+  overflow: hidden;
+  display: flex;
+  /*justfiy-content: center;*/
 }
 
 .flex-item01 { background-color: #DC3522; }

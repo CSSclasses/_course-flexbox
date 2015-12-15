@@ -1,28 +1,62 @@
 # Flexbox Course
 
+
 * [Introduction]() /* links follows soon(ish) */
-* [display: flex]()
+* [display: flex](#display--flex)
+>>>>>>> e45952a8c3c8dae69cb835d4cf166d489d4b764c
 * [flex-direction]()
   * [row]()
   * [column]()
 * [order]()
 * [justify-content](#justify-content)
-  * [flex-start]()
-  * [flex-end]()
-  * [center]()
-  * [space-between]()
-  * [space-around]()
-  * [inherit]()
-  * [initial]()
-  * [unset]()
-* [align-items]()
-  * [flex-start]()
-  * [flex-end]()
-  * [center]()
-  * [baseline]()
-  * [stretch]()
-  * [inherit]()
+  * [flex-start](#flex-start)
+  * [flex-end](#flex-end)
+  * [center](#center)
+  * [space-between](#space-between)
+  * [space-around](#pace-around)
+* [align-items](#align-items)
+  * [flex-start](#flex-start-1)
+  * [flex-end](#flex-end-1)
+  * [center](#center-1)
+  * [baseline](#baseline)
+  * [stretch](#strecht)
 
+## Walkthrough
+
+1. Read [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+2. Try to solve all levels in [Flexbox Froggy](http://flexboxfroggy.com)
+3. If you get stuck try Chris Coiyer's [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+## display – Flex
+`display: flex;` defines a flex container. This enables a flex context for all its direct children (`.flex-container > .flex-child`).
+```
+.flex-container {
+  display: flex; /* inline-flex */
+}
+```
+
+## flex-direction
+The flex-direction CSS property specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+```
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+```
+
+### flex-direction: row
+#### row
+The flex container's main-axis is defined to be the same as the text direction. The main-start and main-end points are the same as the content direction.
+
+#### row-reverse
+Behaves the same as row but the main-start and main-end points are permuted.
+
+### flex-direction: column
+#### column
+The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode.
+
+#### column-reverse
+Behaves the same as column but the main-start and main-end are permuted.
 
 ## justify-content
 ### flex-start
@@ -61,9 +95,15 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 * align-items: initial;
 * align-items: unset;
 
-
 ## Resources
-* [http://flexboxfroggy.com](http://flexboxfroggy.com)
+* [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+* [Flexbox Froggy](http://flexboxfroggy.com)
 * [What the Flexbox!?](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
 * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 * [Flexbugs](https://github.com/philipwalton/flexbugs)
+* [Zoe Gillenwater – Enhancing Responsiveness with Flexbox](https://www.youtube.com/watch?v=_98SE8WUvLk&list=PL37ZVnwpeshHoV6GgvG9WWAP6rjnEdAs9)
+* [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [MDN – Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+* [Can I Use](http://caniuse.com/#feat=flexbox)
+* [Smashing Magazin article – Flexbox](http://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)
+  
