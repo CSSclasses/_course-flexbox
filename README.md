@@ -3,7 +3,6 @@
 
 * [Introduction]() /* links follows soon(ish) */
 * [display: flex](#display--flex)
->>>>>>> e45952a8c3c8dae69cb835d4cf166d489d4b764c
 * [flex-direction]()
   * [row]()
   * [column]()
