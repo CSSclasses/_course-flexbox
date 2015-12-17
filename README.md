@@ -1,7 +1,7 @@
 # Flexbox Course
 
 
-* [Introduction]() /* links follows soon(ish) */
+* [Introduction]()
 * [display: flex](#display--flex)
 * [flex-direction]()
   * [row]()
