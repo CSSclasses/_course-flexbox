@@ -96,7 +96,7 @@ Flex items are stretched such as the cross-size of the item's margin box is the 
 
 ## Resources
 * [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
-* [Flexbox Froggy](http://flexboxfroggy.com)
+* [Flexbox Froggy](http://flexboxfroggy.com) Make sure to check out this video course!!!
 * [What the Flexbox!?](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
 * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 * [Flexbugs](https://github.com/philipwalton/flexbugs)
